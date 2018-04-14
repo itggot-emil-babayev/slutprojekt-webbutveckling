@@ -35,6 +35,10 @@ header {
     color: black;
 }
 
+.logo a:hover {
+    text-decoration: underline;
+}
+
 .menu-desktop > ul {
     list-style-type: none;
     padding: 0;
@@ -51,6 +55,10 @@ header {
 .menu-desktop > ul li a {
     text-decoration: none;
     color: black;
+}
+
+.menu-desktop > ul li a:hover {
+    text-decoration: underline;
 }
 
 /* Index-main-video-background */
