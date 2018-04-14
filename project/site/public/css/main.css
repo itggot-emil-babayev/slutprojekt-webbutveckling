@@ -1,1 +1,41 @@
-body{font-family:'Courier New',Courier,monospace}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    /* color: red; */
+    width: 100vw;
+}
+
+.menu-desktop {
+    /* background-color: aqua; */
+    display: grid;
+    height: inherit;
+    width: inherit;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    box-shadow: 5px 10px 5px #aaaaaa;
+}
+
+.logo {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    font-size: 50px;
+    align-self: center;
+    justify-self: center;
+}
+
+.menu-desktop > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    /* justify-content: center; */
+}
+
