@@ -90,6 +90,19 @@ header {
 }
 
 /* Index content */
+
+@keyframes fade-text {
+    0% {opacity: 0;}
+    66% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fade-button {
+    0% {opacity: 0;}
+    90% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 .index-main {
     position: absolute;
     top: 10vh;
@@ -104,6 +117,7 @@ header {
 }
 
 .catchphrase {
+    animation: fade-text 2s;
     grid-row: 4 / 5;
     grid-column: 3 / 6;
     align-self: center;
@@ -113,6 +127,7 @@ header {
 }
 
 .button {
+    animation: fade-button 6s;
     grid-row: 5 / 6;
     grid-column: 4 / 5;
     background-color: springgreen;
