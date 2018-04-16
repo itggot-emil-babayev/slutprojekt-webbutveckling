@@ -198,13 +198,19 @@ header {
     background-color: springgreen;
     display: flex;
     justify-content: center;
-    align-content: center;
+    
 }
 
+.to-train div {
+    align-self: center;    
+}
+
+
 .to-train a {
+    
     text-decoration: none;
     color: black;
-    font-size: 24px;
+    font-size: 36px;
 }
 
 .to-train a:hover {
