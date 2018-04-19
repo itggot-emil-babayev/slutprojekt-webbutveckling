@@ -136,7 +136,7 @@ header {
 }
 
 .button {
-    animation: fade-button 6s;
+    animation: fade-button 6.35s;
     grid-row: 5 / 6;
     grid-column: 4 / 5;
     background-color: springgreen;
@@ -216,4 +216,29 @@ header {
 .to-train a:hover {
     text-decoration: underline;
 
+}
+
+/* Train main */
+.train-main {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+
+.image{
+    width: 400px;
+    height: 400px;
+    grid-column: 1 / 2;
+}
+
+.image img {
+    width: inherit;
+    height: inherit;
+}
+
+.text {
+    grid-column: 2 / 3;
 }
