@@ -221,6 +221,7 @@ header {
 /* Train main */
 .train-main {
     padding: 30px;
+    width: 1000px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
@@ -229,8 +230,8 @@ header {
 }
 
 .image{
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     grid-column: 1 / 2;
 }
 
