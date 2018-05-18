@@ -229,10 +229,11 @@ header {
     position: absolute;
     top: 10vh;
     left: 0;
-    background-image: url("../img/wall.jpg");
+    background-image: url("../img/background.jpg");
     width: 100vw;
-    height: 100%;
+    height: 1040px;
     min-height: inherit;
+    background-repeat: repeat;
 }
 
 .train-main {
@@ -270,16 +271,18 @@ header {
 }
 
 @media only screen and (max-device-width: 420px) {
+    @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
     body {
         
         background-color: red;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: 'Anonymus Pro', monospace;
     }
 
     .menu-desktop {
         position: absolute;
         z-index: 500;
         display: grid;
+        padding-top: 10px;
         padding-bottom: 10px;
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: repeat(5, 1fr);
@@ -342,6 +345,16 @@ header {
         height: 100%;
     }
 
+    .bg_img {
+        height: 2300px;
+        background-repeat: repeat;
+    }
+
+    .train-main > .bg_img {
+        height: 1020px !important;
+        background-repeat: repeat;
+    }
+
     .button {
         animation: none;
         grid-column: 3 / 6;
@@ -379,7 +392,7 @@ header {
     }
 
     .train-main {
-        padding: 0;
+        /* margin: 10px; */
         display: grid;
         width: 100vw;
         height: auto;
