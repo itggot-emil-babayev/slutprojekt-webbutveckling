@@ -1,4 +1,3 @@
-
 html {
     overflow-x: hidden;
 }
@@ -11,12 +10,10 @@ body {
 /* Headers och menus */
 header {
     height: 10vh;
-    /* color: red; */
     width: 100vw;
 }
 
 .menu-desktop {
-    /* background-color: aqua; */
     display: grid;
     height: inherit;
     width: inherit;
@@ -54,7 +51,6 @@ header {
     grid-template-columns: repeat(2, 1fr);
     align-content: center;
     font-size: 18px;
-    /* justify-content: center; */
 }
 
 .menu-desktop > ul li a {
@@ -111,8 +107,6 @@ header {
 .index-main {
     position: absolute;
     top: 10vh;
-
-    /* z-index: -98; */
     height: 90vh;
     width: 100%;
     display: grid;
@@ -122,9 +116,10 @@ header {
 }
 
 .catchphrase {
-    animation: fade-text 2s;
     grid-row: 4 / 5;
     grid-column: 3 / 6;
+
+    animation: fade-text 2s;
     align-self: center;
     justify-self: center;
     font-size: 36px;
@@ -132,9 +127,10 @@ header {
 }
 
 .button {
-    animation: fade-button 6.35s;
     grid-row: 5 / 6;
     grid-column: 4 / 5;
+
+    animation: fade-button 6.35s;
     background-color: springgreen;
     border: 1px solid;
     box-shadow: 5px 3px 3px black;
@@ -153,7 +149,6 @@ header {
     
 }
 
-
 .button-text {
     color: black;
     font-size: 18px;
@@ -169,8 +164,6 @@ header {
     width: 80vw;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    /* grid-row-gap: 15px; */
-    /* grid-column-gap: 100px; */
 }
 
 .train {
@@ -193,7 +186,6 @@ header {
     background-color: springgreen;
     display: flex;
     justify-content: center;
-    
 }
 
 .to-train div {
@@ -202,7 +194,6 @@ header {
 
 
 .to-train a {
-    
     text-decoration: none;
     color: black;
     font-size: 36px;
@@ -210,7 +201,6 @@ header {
 
 .to-train a:hover {
     text-decoration: underline;
-
 }
 
 /* Train main */
@@ -220,8 +210,6 @@ header {
     display: flex;
     justify-content: center;
     align-content: center;
-    
-    
 }
 
 .bg_img {
@@ -241,7 +229,6 @@ header {
     margin-top: 30px;
     padding: 30px;
     width: 1000px;
-    /* height: fit-content; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
@@ -250,6 +237,7 @@ header {
     box-shadow: 5px 3px 3px black;
     border: 1px solid;
 }
+
 .train-main h1 {
     padding: 0;
     margin: 0;
@@ -273,7 +261,6 @@ header {
 @media only screen and (max-device-width: 420px) {
     @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
     body {
-        
         background-color: red;
         font-family: 'Anonymus Pro', monospace;
     }
@@ -318,7 +305,6 @@ header {
         align-self: right;
         display: none;
         grid-template-columns: repeat(2, 1fr);
-
     }
 
     #item1 {
@@ -346,7 +332,7 @@ header {
     }
 
     .bg_img {
-        height: 2300px;
+        height: 100vh;
         background-repeat: repeat;
     }
 
@@ -370,7 +356,6 @@ header {
 
     .trains-main {
         padding: 10px;
-
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
@@ -382,7 +367,6 @@ header {
     .train {
         width: 95vw;
         height: 95vw;
-
     }
 
     .train-img {
@@ -392,7 +376,6 @@ header {
     }
 
     .train-main {
-        /* margin: 10px; */
         display: grid;
         width: 100vw;
         height: auto;
