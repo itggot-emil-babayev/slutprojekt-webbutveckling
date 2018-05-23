@@ -261,7 +261,6 @@ header {
 @media only screen and (max-device-width: 420px) {
     @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
     body {
-        background-color: red;
         font-family: 'Anonymus Pro', monospace;
     }
 
@@ -334,7 +333,7 @@ header {
     }
 
     .bg_img {
-        height: 100vh;
+        height: 2600px;
         background-repeat: repeat;
     }
 
