@@ -266,6 +266,8 @@ header {
     }
 
     .menu-desktop {
+        transition: height 0.5s;
+        -moz-transition: height 0.5s;
         position: absolute;
         z-index: 500;
         display: grid;
