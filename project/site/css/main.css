@@ -93,13 +93,13 @@ header {
 /* Index content */
 
 @keyframes fade-text {
-    0% {opacity: 0;}
+    from {opacity: 0;}
     66% {opacity: 0;}
     100% {opacity: 1;}
 }
 
 @keyframes fade-button {
-    0% {opacity: 0;}
+    from {opacity: 0;}
     90% {opacity: 0;}
     100% {opacity: 1;}
 }
